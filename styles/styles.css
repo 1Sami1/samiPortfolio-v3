@@ -1,11 +1,13 @@
 body{
-    background-color: blue ;
+    background-color: white ;
+    font-family: var(--kanit-font);
+    color: var(--main-color);
 }
 
 /* variables */
 :root {
-  --header-fonts :
-
+  --kanit-font: 'Kanit', sans-serif;
+  --main-color: #2C302E;
 }
 
 
@@ -15,7 +17,7 @@ body{
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
-  background-color: #333;
+  background-color: var(--main-color);
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -23,6 +25,7 @@ body{
 .burger {
   display: inline-block;
   cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
   
 }
 
@@ -52,7 +55,6 @@ body{
 
 .nav-list a {
   text-decoration: none;
-  color: white;
 }
 
 /* HEADER STYLING ENDS HERE */
