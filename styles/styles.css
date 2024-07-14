@@ -21,7 +21,6 @@ body{
   margin: 6px 0;
   transition: 0.4s;
 }
-
 .burger {
   display: inline-block;
   cursor: pointer;
@@ -41,10 +40,22 @@ body{
 .change .bar3 {
   transform: rotate(45deg) translate(-8px, -8px);
 }
-
+.site-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 1rem 2rem 1rem;
+}
+/* .header-logo{
+  padding: 10px;
+} */
+#logo-svg{
+  height: 60px;
+}
 .nav-list {
   display: none;
   list-style-type: none;
+  direction: row;
   padding: 0;
   margin: 0;
 }
@@ -56,5 +67,9 @@ body{
 .nav-list a {
   text-decoration: none;
 }
-
+@media (min-width:600px) {
+  .site-header{
+    margin: 1rem 1.5rem 1rem 1.5rem;
+  }
+}
 /* HEADER STYLING ENDS HERE */
