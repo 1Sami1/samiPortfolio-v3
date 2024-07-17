@@ -102,5 +102,7 @@ body{
 
 
 /* HERO SECTION STYLING STARTS HERE */
-
+.hero-section{
+  height: 100vh;
+}
 /* HERO SECTION STYLING ENDS HERE */
