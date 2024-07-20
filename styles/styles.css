@@ -256,13 +256,18 @@ body{
 
 
 
-
-
-
 /* ================================================ */
 /* ABOUT PAGE STYLING  */
 /* ================================================ */
 
-
+.wai-section{
+  margin-top: 8rem;
+  .wai-h2{
+    font-family: var(--thunder-font);
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+  }
+}
 
 
