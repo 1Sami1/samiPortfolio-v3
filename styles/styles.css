@@ -107,6 +107,9 @@ body{
   .site-header{
     margin: 1rem 1.5rem 1rem 1.5rem;
   }
+  #logo-svg{
+    height: 60px;
+  }
 }
 /* HEADER STYLING ENDS HERE */
 
@@ -135,9 +138,11 @@ body{
   }
 
   .hero-p{
-    width: 280px;
+    width: 300px;
     margin: 0 auto;
     padding: 0 2rem;
+    font-size: 19px;
+    font-weight: 400;
     .designer{
       color: var(--green);
     }
@@ -146,6 +151,26 @@ body{
 
 
 @media (min-width: 600px ) {
+
+  .hero-section{
+    margin-top: 14rem;
+    h1{
+      font-size: 43px;
+      flex-direction: row;
+      justify-content: center;
+      padding: 0 ;
+      padding-right: 1.3rem;
+      .sami{
+        padding-left: 0.8rem;
+        padding-bottom: 1.5rem;
+      }
+    }
+    .hero-p{
+      width: 430px;
+    
+      font-size: 30px;
+    }
+  }
   
 }
 /* HERO SECTION STYLING ENDS HERE */
