@@ -300,11 +300,31 @@ body{
     font-size: 70px;
     text-align: center;
     margin-top: 7rem;
+    margin-bottom: 5rem;
   }
 }
-.nmwd-div{
-  
+.nmwd-div, .fwd-div{
+  width: 280px;
+  margin: 0 auto;
+  margin-bottom: 2.5rem;
 }
+.edu-li{
+  font-size: 18px;
+  font-weight: 500;
+}
+  .bcit-p{
+    font-size: 13px;
+    color: var(--green);
+    margin: 0;
+    font-weight: 500;
+  }
+  .edu-date{
+
+  }
+
+
+
+
 /* EDUCATION SECTION ENDS HERE */
 
 
@@ -344,4 +364,23 @@ body{
       margin-top: 2rem;
     }
   }
+  .nmwd-div,.fwd-div{
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+    .edu-li{
+      font-size: 20px;
+    }
+    .bcit-p{
+      font-size: 13px;
+      color: var(--green);
+      margin: 0;
+      padding-left: 1.85rem;
+    }
+    .edu-date{
+  
+    }
+  
+  
 }
