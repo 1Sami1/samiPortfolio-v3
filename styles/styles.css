@@ -138,7 +138,8 @@ body{
     font-family: var(--kanit-font);
     font-size: 30px;
     font-weight: 600;
-    -webkit-text-stroke-width: 2;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.4px;
     -webkit-text-stroke-color: #2C302E;
     display: flex;
     align-items: center;
@@ -149,6 +150,9 @@ body{
       font-weight: 800;
       font-size: 110px;
       padding-left: 7rem;
+      -webkit-text-fill-color: var(--main-color);
+      -webkit-text-stroke-width: 0;
+
     }
   }
 
@@ -192,6 +196,8 @@ body{
       margin: 0;
       padding-right:15rem;
       font-size: 60px;
+      -webkit-text-stroke-width: 2px;
+
       .sami{
         font-size: 155px;
       }
