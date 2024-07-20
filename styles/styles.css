@@ -113,6 +113,16 @@ body{
 }
 /* HEADER STYLING ENDS HERE */
 
+/* FOOTER STYLING STARS HERE */
+
+/* FOOTER STYLING ENDS HERE */
+
+
+/* ================================================ */
+/* HOME PAGE STYLING  */
+/* ================================================ */
+
+
 
 /* HERO SECTION STYLING STARTS HERE */
 .hero-section{
@@ -191,3 +201,47 @@ body{
   
 }
 /* HERO SECTION STYLING ENDS HERE */
+
+/* FEATURED WORK STYLING STARTS HERE */
+.featured-works{
+  .fw-heading{
+    text-align: center;
+    font-family: var(--thunder-font);
+    font-size: 69px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+}
+
+@media (min-width: 600px) {
+  .featured-works{
+    .fw-heading{
+      font-size: 77px;
+    }
+  }
+}
+@media (min-width: 1000px) {
+  .featured-works{
+    .fw-heading{
+      font-size: 90px;
+    }
+  }
+}
+/* FEATURED WORK STYLING ENDS HERE */
+
+/* COLLABORATION STYLES STARTS HERE */
+
+
+/* COLLABORATION STYLES ENDS HERE */
+
+
+
+
+
+
+
+
+
+/* ================================================ */
+/* ABOUT PAGE STYLING  */
+/* ================================================ */
