@@ -3,6 +3,7 @@
 @font-face {
   font-family: 'thunder';
   src: url('/samiPortfolio-v3/fonts/Thunder-BlackLC.ttf'), url('/samiPortfolio-v3/fonts/Thunder-BlackLC.woff'),url('/samiPortfolio-v3/fonts/Thunder-BlackLC.woff2'), url('/samiPortfolio-v3/fonts/Thunder-BoldLC.ttf'), url('/samiPortfolio-v3/fonts/Thunder-BoldLC.woff'), url('/samiPortfolio-v3/fonts/Thunder-BoldLC.woff2'), url('/samiPortfolio-v3/fonts/Thunder-ExtraBoldLC.ttf'), url('/samiPortfolio-v3/fonts/Thunder-ExtraBoldLC.woff'), url('/samiPortfolio-v3/fonts/Thunder-ExtraBoldLC.woff2');
+  font-weight: 800, 700, 600, 500;
 }
 
 body{
@@ -115,6 +116,10 @@ body{
 
 /* FOOTER STYLING STARS HERE */
 
+.footer-text{
+  text-align: center;
+  margin: 0;
+}
 /* FOOTER STYLING ENDS HERE */
 
 
@@ -230,7 +235,14 @@ body{
 /* FEATURED WORK STYLING ENDS HERE */
 
 /* COLLABORATION STYLES STARTS HERE */
+.collab-section{
+  .collab-heading{
+    font-family: var(--thunder-font);
+    font-size: 69px;
+    text-transform: uppercase;
 
+  }
+}
 
 /* COLLABORATION STYLES ENDS HERE */
 
