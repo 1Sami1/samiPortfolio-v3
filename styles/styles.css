@@ -1,5 +1,5 @@
 body{
-    background-color: white ;
+    background-color: whit e ;
     font-family: var(--kanit-font);
     color: var(--main-color);
 }
@@ -8,6 +8,7 @@ body{
 :root {
   --kanit-font: 'Kanit', sans-serif;
   --main-color: #2C302E;
+  --green: #00A764;
 }
 
 
@@ -112,16 +113,28 @@ body{
     -webkit-text-stroke-width: 2;
     -webkit-text-stroke-color: #2C302E;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    span{
-      
+    flex-direction: column;
+    padding-right: 7rem;
+    .sami{
+      font-weight: 800;
+      font-size: 65px;
+      padding-left: 8.5rem;
     }
   }
 
   .hero-p{
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
+    padding: 0 2rem;
+    .designer{
+      color: var(--green);
+    }
 }
+}
+
+
+@media (min-width: 600px ) {
+  
 }
 /* HERO SECTION STYLING ENDS HERE */
