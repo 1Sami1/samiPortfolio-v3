@@ -151,7 +151,6 @@ body{
 
 
 @media (min-width: 600px ) {
-
   .hero-section{
     margin-top: 14rem;
     h1{
@@ -167,8 +166,26 @@ body{
     }
     .hero-p{
       width: 430px;
-    
       font-size: 30px;
+    }
+  }
+}
+@media (min-width: 1000px) {
+  .hero-section{
+    margin-top: 8.5rem;
+    h1{
+      margin: 0;
+      padding-right:15rem;
+      font-size: 60px;
+      .sami{
+        font-size: 155px;
+      }
+    }
+    .hero-p{
+      margin: 0 auto; 
+      width: 490px;
+      position: relative;
+      right: 8.5rem;
     }
   }
   
