@@ -1,11 +1,19 @@
+/* THIS IS THE FONT FOR HEADINGS AND NAV MENU(needs all file types for different browsers) */
+
+@font-face {
+  font-family: 'thunder';
+  src: url('/samiPortfolio-v3/fonts/Thunder-BlackLC.ttf'), url('/samiPortfolio-v3/fonts/Thunder-BlackLC.woff'),url('/samiPortfolio-v3/fonts/Thunder-BlackLC.woff2'), url('/samiPortfolio-v3/fonts/Thunder-BoldLC.ttf'), url('/samiPortfolio-v3/fonts/Thunder-BoldLC.woff'), url('/samiPortfolio-v3/fonts/Thunder-BoldLC.woff2'), url('/samiPortfolio-v3/fonts/Thunder-ExtraBoldLC.ttf'), url('/samiPortfolio-v3/fonts/Thunder-ExtraBoldLC.woff'), url('/samiPortfolio-v3/fonts/Thunder-ExtraBoldLC.woff2');
+}
+
 body{
-    background-color: whit e ;
+    background-color: white ;
     font-family: var(--kanit-font);
     color: var(--main-color);
 }
 
 /* variables */
 :root {
+  --thunder-font: 'thunder', sans-serif;
   --kanit-font: 'Kanit', sans-serif;
   --main-color: #2C302E;
   --green: #00A764;
@@ -26,7 +34,7 @@ body{
 .burger {
   display: inline-block;
   cursor: pointer;
-  font-family: --kanit-font;
+  font-family: var(--thunder-font);
   z-index: 9999;
   position: relative;;
 }
@@ -58,6 +66,7 @@ body{
 .nav-list {
   display: none;
   list-style-type: none;
+  font-family: var(--thunder-font);
   padding: 0;
   margin: 0;
   position: fixed;
@@ -80,7 +89,7 @@ body{
 
 .nav-list a {
   color: var(--main-color); 
-  font-size: 24px;
+  font-size: 40px;
   font-weight: 800;
   text-transform: uppercase; 
   text-decoration: none;
@@ -105,26 +114,28 @@ body{
 /* HERO SECTION STYLING STARTS HERE */
 .hero-section{
   height: 100vh;
+  margin-top: 7rem;
   h1{
     margin-top: 4rem;
     font-family: var(--kanit-font);
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 600;
     -webkit-text-stroke-width: 2;
     -webkit-text-stroke-color: #2C302E;
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-right: 7rem;
+    padding-right: 4.6rem;
     .sami{
+      font-family: 'thunder';
       font-weight: 800;
-      font-size: 65px;
-      padding-left: 8.5rem;
+      font-size: 110px;
+      padding-left: 7rem;
     }
   }
 
   .hero-p{
-    width: 100%;
+    width: 280px;
     margin: 0 auto;
     padding: 0 2rem;
     .designer{
