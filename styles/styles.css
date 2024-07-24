@@ -647,7 +647,6 @@ body{
   .proj-poster-1{
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 10rem;
   }
   .fb-poster1{
     width: 100%;
@@ -657,9 +656,10 @@ body{
   .proj-info-1{
     display: flex;
     width: 80%;
+    justify-content: center;
   }
   .proj-overview{
-    padding-left: 2rem;
+    width: 50%;
   }
   .overview-h3{
     text-align: start;
@@ -677,5 +677,8 @@ body{
     margin: 0 ;
     padding: 0;
     font-size: 1rem;
+  }
+  .proj-tools, .proj-roles, .proj-compl{
+    margin-bottom: 20px;
   }
 }
