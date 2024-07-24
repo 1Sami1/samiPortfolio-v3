@@ -486,7 +486,8 @@ body{
 
 
 .hero-fb-section{
-  height: 100vh;
+  height: auto;
+  margin-bottom: 15rem;
 }
 
 .fb-project-name{
@@ -528,3 +529,37 @@ body{
     margin: 5px;
 }
 
+.proj-poster-1{
+  width: 90%;
+  margin: 0 auto;
+}
+.fb-poster1{
+  width: 100%;
+}
+
+
+@media (min-width: 600px) {
+   .fb-project-name{
+    width: 420px;
+   }
+   .fb-tagline{
+    width: 420px;
+   }
+   .single-proj-tag{
+    padding-left: 10%;
+   }
+}
+
+@media (min-width: 1000px) {
+  .hero-fb-section{
+    margin-top: 10rem;
+  }
+  .fb-project-name{
+    font-size: 2.3rem;
+    width: 600px;
+  }
+  .fb-tagline{
+    width: 600px;
+    font-size: 5.6rem;
+  }
+}
