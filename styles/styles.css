@@ -477,3 +477,54 @@ body{
   background: rgba(0, 167, 100, 0.27);
   opacity: 1;
 }
+
+
+
+/* ================================================ */
+/* FROSTBITES PROJECT PAGE STYLING  */
+/* ================================================ */
+
+
+.hero-fb-section{
+  height: 100vh;
+}
+
+.fb-project-name{
+  font-size: 32px;
+  text-transform: uppercase;
+  font-family: var(--kanit-font);
+  font-weight: 800;
+  width: 80%;
+  line-height: 1;
+  margin: 0 auto;
+  margin-top: 6rem;
+  color: #F04D54;
+}
+.fb-tagline{
+  width: 80%;
+  font-family: var(--thunder-font);
+  font-size: 3.9rem;
+  line-height: 1;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.single-proj-tag{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 2.2rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.BR{
+    background-color: #465CAA;
+    padding: 7px;
+    margin: 5px;
+}
+.GD{
+  background-color: #F04D54;
+    padding: 7px;
+    margin: 5px;
+}
+
