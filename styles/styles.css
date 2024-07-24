@@ -330,15 +330,40 @@ body{
     margin: 0;
     font-weight: 500;
   }
-  .edu-date{
-
-  }
+  
 
 
 
 
 /* EDUCATION SECTION ENDS HERE */
 
+.ss-section{
+  margin-top: 7rem;
+  margin: 0 auto;
+}
+.ss-h2{
+  font-family: var(--thunder-font);
+    text-transform: uppercase;
+    font-size: 71px;
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.software-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px; /* Adjust the gap between images as needed */
+  max-width: 200px; /* Adjust the max-width as needed */
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.software-icons img {
+  width: 60px;
+  height: auto;
+  object-fit: contain; 
+}
 
 
 /* MEDIA QUERIES */
