@@ -681,4 +681,25 @@ body{
   .proj-tools, .proj-roles, .proj-compl{
     margin-bottom: 20px;
   }
+
+  .process-section{
+    width: 80%;
+  }
+  .fb-process-h3{
+    text-align: start;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 10rem;
+    
+  }
+  .process-p{
+    text-align: start;
+    width: 500px;
+    margin: 0;
+    margin-left: 10rem;
+  }
+
+  .fb-poster1{
+    height: 700px;
+  }
 }
