@@ -654,5 +654,28 @@ body{
     height: 700px;
     object-fit: cover;
   }
-  
+  .proj-info-1{
+    display: flex;
+    width: 80%;
+  }
+  .proj-overview{
+    padding-left: 2rem;
+  }
+  .overview-h3{
+    text-align: start;
+    font-size: 4rem;
+  }
+  .overview-p{
+    margin: 0;
+  }
+  .tools-h3, .role-h3, .compl-h3{
+    text-align: start;
+    font-size: 4rem;
+  }
+  .tools-ul, .roles-ul, .completed-ul{
+    text-align: start;
+    margin: 0 ;
+    padding: 0;
+    font-size: 1rem;
+  }
 }
