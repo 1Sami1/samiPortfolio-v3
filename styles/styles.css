@@ -390,7 +390,7 @@ footer{
 .ss-h2{
   font-family: var(--thunder-font);
     text-transform: uppercase;
-    font-size: 75px;
+    font-size: 80px;
     text-align: center;
     margin-top: 7rem;
     margin-bottom: 5rem;
@@ -436,7 +436,16 @@ footer{
   font-size: 20px;
 }
 
-
+.contact-section{
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+}
+.acs-h3{
+  font-family: var(--thunder-font);
+  font-size: 60px;
+  width: 60%;
+  margin-left: 5rem;
+}
 /* MEDIA QUERIES */
 @media (min-width: 600px) {
   .wai-section{
@@ -501,6 +510,11 @@ footer{
     }
     .software-icons{
       margin: 0;
+    }
+    .acs-h3{
+      font-size: 80px;
+      width: 50%;
+      margin-left: 10rem;
     }
       
   
