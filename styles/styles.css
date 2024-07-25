@@ -115,10 +115,11 @@ body{
 /* HEADER STYLING ENDS HERE */
 
 /* FOOTER STYLING STARS HERE */
-footer{
-  margin-top: 5rem;
-}
 .mobile-socials{
+  display: none;
+}
+@media (max-width:1000px) {
+  .mobile-socials{
   display: flex;
   justify-content: center;
   padding-bottom: 5px;
@@ -126,6 +127,11 @@ footer{
 .mobile-socials a img{
   width: 45px;
   padding: 5px;
+}
+
+}
+footer{
+  margin-top: 5rem;
 }
 
 .footer-text{
