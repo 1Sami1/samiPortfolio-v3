@@ -610,9 +610,10 @@ footer{
 .single-proj-tag{
   display: flex;
   justify-content: flex-start;
-  padding-left: 2.2rem;
   text-transform: uppercase;
   color: #fff;
+  width: 80%;
+  margin: 0 auto;
 }
 .BR{
     background-color: #465CAA;
@@ -724,7 +725,8 @@ footer{
     width: 420px;
    }
    .single-proj-tag{
-    padding-left: 10%;
+    width: 600px;
+    margin: 0 auto;
    }
 }
 
