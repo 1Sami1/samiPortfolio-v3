@@ -470,12 +470,22 @@ footer{
 }
 
 
+.emailMe-h3{
+  font-family: var(--thunder-font);
+  font-size: 80px;
+}
+.right-sec-collab{
+  margin-left: 5rem;
+  margin-top: 7rem;
+}
+
 /* EMAIL ADDRESS CLICK TO COPY STYLING */
 /* =================================== */
 
 .mailto-link {
 	position: relative;
 	padding: 8px 0;
+  color: var(--main-color);
 }
 .mailto-message {
 	top: 1px;
