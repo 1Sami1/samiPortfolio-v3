@@ -390,7 +390,7 @@ footer{
 .ss-h2{
   font-family: var(--thunder-font);
     text-transform: uppercase;
-    font-size: 80px;
+    font-size: 75px;
     text-align: center;
     margin-top: 7rem;
     margin-bottom: 5rem;
@@ -446,6 +446,81 @@ footer{
   width: 60%;
   margin-left: 5rem;
 }
+
+
+.contact-circle{
+  width: 130px;
+  height: 130px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  margin-left: 5rem;
+  align-content: center;
+}
+
+.contact-circle a{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #FFF;
+  font-family: var(--kanit-font);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+/* EMAIL ADDRESS CLICK TO COPY STYLING */
+/* =================================== */
+
+.mailto-link {
+	position: relative;
+	padding: 8px 0;
+}
+.mailto-message {
+	top: 1px;
+	left: 50%;
+	margin-bottom: -5px;
+	transform: translate(-50%, -100%);
+	position: absolute;
+	display: none;
+	width: auto;
+	white-space: nowrap;
+	font-size: 12px;
+	background-color: black;
+	color: white;
+	padding: 2px 6px;
+	border-radius: 2px;
+	&:after,
+	&:before {
+		content: '';
+	}
+	&:before {
+		top: 100%;
+		left: 50%;
+		border: solid transparent;
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+		border-color: rgba(0, 0, 0, 0);
+		border-top-color: #000000;
+		border-width: 4px;
+		margin-left: -4px;
+	}
+}
+.mailto-link:hover .mailto-message,
+.mailto-link:focus .mailto-message,
+.mailto-link:focus-within .mailto-message {
+	display: block;
+}
+
+/* =================================== */
+/* =================================== */
+
+
+
+
 /* MEDIA QUERIES */
 @media (min-width: 600px) {
   .wai-section{
@@ -458,6 +533,8 @@ footer{
     }
   }
 }
+
+
 
 @media (min-width: 1000px) {
   .wai-section{
@@ -516,15 +593,13 @@ footer{
       width: 50%;
       margin-left: 10rem;
     }
+    .contact-circle{
+      margin-left: 10rem;
+
+    }
       
   
 }
-
-
-
-
-
-
 
 
 /* ================================================ */
@@ -829,3 +904,4 @@ footer{
     height: 700px;
   }
 }
+
