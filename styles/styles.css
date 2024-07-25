@@ -115,6 +115,18 @@ body{
 /* HEADER STYLING ENDS HERE */
 
 /* FOOTER STYLING STARS HERE */
+footer{
+  margin-top: 5rem;
+}
+.mobile-socials{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+.mobile-socials a img{
+  width: 45px;
+  padding: 5px;
+}
 
 .footer-text{
   text-align: center;
