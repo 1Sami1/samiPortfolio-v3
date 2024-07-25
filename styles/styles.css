@@ -266,39 +266,77 @@ footer{
 
 /* FEATURED WORK STYLING STARTS HERE */
 .featured-works{
+  margin-bottom: 7rem;
+}
+
   .fw-heading{
     text-align: center;
     font-family: var(--thunder-font);
     font-size: 69px;
     text-transform: uppercase;
     font-weight: 800;
+    margin-bottom: 5rem;
   }
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1200px;
+  box-sizing: border-box;
 }
 
-.works-gallery{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: auto;
-  grid-auto-flow: dense;
-  justify-content: center;
-  img{
-    height: 200px;
-  }
+.gallery-row {
+  display: flex;
+  width: 100%;
 }
+
+.gallery-item {
+  width: 50%;
+  box-sizing: border-box;
+  height: 250px;
+  object-fit: cover;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-item-wide {
+  width: 100%;
+  box-sizing: border-box;
+  height: 250px;
+}
+
+.gallery-item-wide img {
+  width: 100%;
+  height: auto;
+  display: block;
+  
+}
+
+
+
 
 @media (min-width: 600px) {
-  .featured-works{
     .fw-heading{
       font-size: 77px;
     }
-  }
+
 }
 @media (min-width: 1000px) {
-  .featured-works{
     .fw-heading{
       font-size: 90px;
     }
-  }
+
+    .gallery-item, .gallery-item-wide{
+      height: 400px;
+    }
+  
   
 }
 /* FEATURED WORK STYLING ENDS HERE */
