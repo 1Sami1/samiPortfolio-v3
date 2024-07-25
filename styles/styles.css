@@ -90,7 +90,7 @@ body{
 
 .nav-list a {
   color: var(--main-color); 
-  font-size: 40px;
+  font-size: 70px;
   font-weight: 800;
   text-transform: uppercase; 
   text-decoration: none;
@@ -119,6 +119,11 @@ body{
   display: none;
 }
 @media (max-width:1000px) {
+
+  .show-nav a{
+    font-size: 70px;
+  }
+
   .mobile-socials{
   display: flex;
   justify-content: center;
@@ -294,6 +299,7 @@ footer{
       font-size: 90px;
     }
   }
+  
 }
 /* FEATURED WORK STYLING ENDS HERE */
 
@@ -329,7 +335,11 @@ footer{
 /* COLLABORATION STYLES ENDS HERE */
 
 
-
+@media (min-width:1000px) {
+  .collab-section{
+    margin-left: 12rem;
+  }
+}
 
 
 /* ================================================ */
