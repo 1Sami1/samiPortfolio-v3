@@ -486,9 +486,23 @@ footer{
       margin: 0;
       padding-left: 1.85rem;
     }
-    .edu-date{
-  
+    .ss-flex-div{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 70%;
+      margin: 0 auto;
+      margin-bottom: 7rem;
     }
+    .divider{
+      transform: rotate(90deg);
+      width: 20%;
+      margin: 0;
+    }
+    .software-icons{
+      margin: 0;
+    }
+      
   
 }
 
