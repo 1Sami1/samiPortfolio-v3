@@ -123,6 +123,34 @@ body{
 /* FOOTER STYLING ENDS HERE */
 
 
+/* SOCIAL MEDIA SIDEBAR */
+.sticky-socials{
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .sticky-socials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem;
+}
+.sticky-socials a{
+  padding-top: 15px;
+}
+
+.sticky-socials a img{
+  width: 35px;
+  color: #2C302E;
+}
+
+
+}
+/* ---------------------- */
+
+
 /* ================================================ */
 /* HOME PAGE STYLING  */
 /* ================================================ */
