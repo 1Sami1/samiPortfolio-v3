@@ -352,10 +352,11 @@ footer{
   left: 5%;
   right: 5%;
   bottom: 5%;
-  border-left: 4px solid var(--green);
+  border-left: 3px solid var(--green);
   transition: all 0.4s ease;
-  padding: 10px 12px;
-  margin: 24px 24px;
+  font-size: 15px;
+  padding: 4px 12px;
+  margin: 10px 10px;
   text-transform: uppercase;
 }
 
@@ -382,7 +383,18 @@ footer{
     .fw-heading{
       font-size: 90px;
     }
-
+    .title {
+      color: white;
+      font-size: 24px;
+      left: 5%;
+      right: 5%;
+      bottom: 5%;
+      border-left: 4px solid var(--green);
+      transition: all 0.4s ease;
+      padding: 10px 12px;
+      margin: 24px 24px;
+      text-transform: uppercase;
+    }
     .gallery-item, .gallery-item-wide{
       height: 400px;
     }
@@ -393,7 +405,7 @@ footer{
 
 /* COLLABORATION STYLES STARTS HERE */
 .collab-section{
-  margin-left: 4rem;
+  margin-left: 15%;
   margin-bottom: 7rem;
 }
 .collab-heading{
@@ -423,9 +435,9 @@ footer{
 /* COLLABORATION STYLES ENDS HERE */
 
 
-@media (min-width:1000px) {
+@media (min-width:1800px) {
   .collab-section{
-    margin-left: 12rem;
+    margin-left: 18%;
   }
 }
 
