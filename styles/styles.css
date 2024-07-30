@@ -833,7 +833,29 @@ footer{
   opacity: 1;
 }
 
-
+/* ================================================ */
+/* BRANDBOOK PROJECT PAGE STYLING  */
+/* ================================================ */
+.bb-project-name{
+  font-size: 32px;
+  text-transform: uppercase;
+  font-family: var(--kanit-font);
+  font-weight: 800;
+  width: 80%;
+  line-height: 1;
+  margin: 0 auto;
+  margin-top: 6rem;
+  color: #D3202E;
+}
+.bb-tagline{
+  width: 80%;
+  font-family: var(--thunder-font);
+  font-size: 49px;
+  line-height: 1;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
 
 /* ================================================ */
 /* FROSTBITES PROJECT PAGE STYLING  */
