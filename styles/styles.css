@@ -929,11 +929,13 @@ footer{
   font-weight: 700;
 }
 .overview-p{
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
   margin-bottom: 3.5rem;
   font-size: 18px;
+  padding: 10px 0;
 }
+
 
 .tools-h3{
   text-align: center;
