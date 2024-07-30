@@ -357,13 +357,7 @@ footer{
   padding: 10px 12px;
   margin: 24px 24px;
   text-transform: uppercase;
-  transform: translateX(-105%);
 }
-
-.gallery-item:hover .title{
-  transform: translateX(0);
-}
-
 
 .gallery-item:hover .overlay,
 .gallery-item-wide:hover .overlay {
