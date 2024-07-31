@@ -1020,7 +1020,7 @@ footer{
   font-family: var(--kanit-font);
   position: absolute;
   font-weight: 800;
-  top: 10px;
+  top: 0;
   font-size: 20px;
   text-transform: uppercase;
   left: 50%;
@@ -1237,7 +1237,7 @@ footer{
     height: 700px;
   }
   .before-pic{
-    top: 1rem;
+    top: 10px;
     font-size: 26px;
   }
 
