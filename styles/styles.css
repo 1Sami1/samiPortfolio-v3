@@ -833,6 +833,8 @@ footer{
   opacity: 1;
 }
 
+
+
 /* ================================================ */
 /* BRANDBOOK PROJECT PAGE STYLING  */
 /* ================================================ */
@@ -906,6 +908,36 @@ footer{
     padding: 7px;
     margin: 5px;
 }
+.main-carousel{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.flickity-button {
+  background: transparent !important;
+}
+
+.carousel-cell {
+  width: 100%;
+}
+
+.before-pic{
+  text-align: center;
+  font-family: var(--kanit-font);
+  position: absolute;
+  font-weight: 800;
+  top: 1rem;
+  font-size: 32px;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translateX(-50%);
+}
+ .white{
+  color: #FFF;
+ }
+
 
 .proj-poster-1{
   width: 90%;
