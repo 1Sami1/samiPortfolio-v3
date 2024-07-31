@@ -928,8 +928,8 @@ footer{
   font-family: var(--kanit-font);
   position: absolute;
   font-weight: 800;
-  top: 1rem;
-  font-size: 32px;
+  top: 10px;
+  font-size: 20px;
   text-transform: uppercase;
   left: 50%;
   transform: translateX(-50%);
@@ -1114,6 +1114,10 @@ footer{
 
   .fb-poster1{
     height: 700px;
+  }
+  .before-pic{
+    top: 1rem;
+    font-size: 26px;
   }
 }
 
