@@ -1032,10 +1032,13 @@ footer{
 
 
 .proj-poster-1{
-  width: 90%;
+  width: 75%;
   margin: 0 auto;
 }
 .fb-poster1{
+  width: 100%;
+}
+.cf-poster{
   width: 100%;
 }
 
@@ -1097,7 +1100,7 @@ footer{
 }
 
 .completed-ul{
-  width: 65%;
+  width: 80%;
   list-style: none;
   margin: 0 auto;
   margin-bottom: 3.5rem;
@@ -1177,6 +1180,10 @@ footer{
     width: 100%;
     object-fit: cover;
   }
+  .cf-poster{
+    width: 100%;
+    object-fit: contain; 
+  }
   .proj-info-1{
     display: flex;
     width: 80%;
@@ -1224,6 +1231,9 @@ footer{
   }
 
   .fb-poster1{
+    height: 700px;
+  }
+  .cf-poster{
     height: 700px;
   }
   .before-pic{
