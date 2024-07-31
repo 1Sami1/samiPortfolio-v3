@@ -112,7 +112,7 @@ body{
 .nav-list a {
   color: var(--main-color); 
   font-size: 70px;
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase; 
   text-decoration: none;
   transition: color 0.3s;
@@ -131,6 +131,10 @@ body{
   }
   #logo-svg{
     height: 60px;
+  }
+
+  .nav-list a{
+    font-weight: 800;
   }
 }
 /* HEADER STYLING ENDS HERE */
@@ -218,8 +222,8 @@ footer{
     flex-direction: column;
     padding-right: 4.6rem;
     .sami{
-      font-family: 'thunder';
-      font-weight: 800;
+      font-family: var(--thunder-font);
+      font-weight: 700;
       font-size: 110px;
       padding-left: 7rem;
       -webkit-text-fill-color: var(--main-color);
@@ -253,6 +257,7 @@ footer{
       .sami{
         padding-left: 0.8rem;
         padding-bottom: 1.5rem;
+        font-weight: 800;
       }
     }
     .hero-p{
