@@ -1160,5 +1160,12 @@ footer{
     top: 1rem;
     font-size: 26px;
   }
+
+  .proj-btn{
+    padding: 1rem;
+  }
+  .proj-btn a{
+    font-size: 40px;
+  }
 }
 
