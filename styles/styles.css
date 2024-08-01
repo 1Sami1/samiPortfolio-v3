@@ -885,7 +885,16 @@ footer{
   text-transform: uppercase;
   padding-top: 15px;
 }
-
+.bb-GD{
+  background-color: var(--main-color);
+    padding: 7px;
+    margin: 5px;
+}
+.bb-BR{
+    background-color: #D3202E;
+    padding: 7px;
+    margin: 5px;
+}
 @media (min-width:600px) {
   .bb-project-name{
     width: 420px;
@@ -990,7 +999,7 @@ footer{
   line-height: 1;
   margin: 0 auto;
   margin-top: 6rem;
-  color: #F04D54;
+  color: #98ca40;
 }
 .fb-tagline{
   width: 80%;
@@ -1011,12 +1020,12 @@ footer{
   margin: 0 auto;
 }
 .BR{
-    background-color: #465CAA;
+    background-color: #f04e54;
     padding: 7px;
     margin: 5px;
 }
 .GD{
-  background-color: #F04D54;
+  background-color: #fbaf34;
     padding: 7px;
     margin: 5px;
 }
