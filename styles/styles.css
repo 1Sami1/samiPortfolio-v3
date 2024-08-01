@@ -244,6 +244,29 @@ footer{
 }
 }
 
+.about-circle-cta{
+  width: 90px;
+  height: 90px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  align-content: center;
+  margin: 0 auto;
+  position: relative;
+  left: 4rem;
+  top: 1rem;
+}
+
+.about-circle-cta a{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #FFF;
+  font-family: var(--kanit-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 @media (min-width: 600px ) {
   .hero-section{
@@ -286,7 +309,10 @@ footer{
       right: 8.5rem;
     }
   }
-  
+  .about-circle-cta{
+    left: 13rem;
+    top: -6rem;
+  }
 }
 /* HERO SECTION STYLING ENDS HERE */
 
@@ -440,6 +466,12 @@ footer{
     font-size: 69px;
     text-transform: uppercase;
 }
+.collab-p{
+  width: 70%;
+  margin-bottom: 3rem;
+  font-size: 20px;
+  font-weight: 500;
+}
 .contact-circle-home{
   width: 130px;
   height: 130px;
@@ -465,6 +497,10 @@ footer{
 @media (min-width:1800px) {
   .collab-section{
     margin-left: 18%;
+  }
+
+  .collab-p{
+    font-size: 20px;
   }
 }
 
@@ -773,11 +809,13 @@ footer{
       margin: 0;
 
     }
-   
+    .left-sec-collab{
+      width: 75%;
+    }
     .right-sec-collab{
       margin: 0;
       align-content: flex-end;
-      width: 50%;
+      width: 25%;
       
     }
       
