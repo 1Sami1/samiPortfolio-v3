@@ -1103,7 +1103,17 @@ footer{
   width: 75%;
   margin: 0 auto;
 }
-.fb-poster1{
+.proj-poster-1-bb{
+  width: 75%;
+  margin: 0 auto;
+}
+.fb-poster1, .fb-poster1-bb{
+  width: 100%;
+  height: 300px;
+}
+
+.fb-poster1-bb-mb{
+  margin-bottom: 2rem;
   width: 100%;
   height: 300px;
 }
@@ -1245,9 +1255,24 @@ footer{
     width: 80%;
     margin: 0 auto;
   }
+
+  .proj-poster-1-bb{
+    width: 60%;
+    margin: 0 auto;
+  }
   .fb-poster1{
     width: 100%;
     object-fit: cover;
+    
+  }
+  .fb-poster1-bb{
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 40%;
+    height: 700px;
+  }
+  .fb-poster1-bb-mb{
+    height: 700px;
   }
   .cf-poster{
     width: 100%;
