@@ -886,6 +886,26 @@ footer{
   padding-top: 15px;
 }
 
+@media (min-width:600px) {
+  .bb-project-name{
+    width: 420px;
+   }
+   .bb-tagline{
+    width: 420px;
+   }
+}
+
+@media (min-width:1000px) {
+  .bb-project-name{
+    font-size: 2.3rem;
+    width: 600px;
+  }
+  .bb-tagline{
+    width: 600px;
+    font-size: 5.6rem;
+  }
+}
+
 
 
 /* ================================================ */
